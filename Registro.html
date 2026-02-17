@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro | MoviePlus</title>
+    <link rel="stylesheet" href="./css/Registro.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">Movie<span>PLus</span></div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="Generos.html">Cartelera</a>
+            <a href="Detalle.html">Premios</a>
+            <a href="Registro.html" class="active">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="form-container">
+        <h2>Contáctanos</h2>
+
+        <form>
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" required>
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" required>
+
+            <label for="mensaje">Tu mensaje</label>
+            <textarea id="mensaje" rows="4"></textarea>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </main>
+
+</body>
+</html>

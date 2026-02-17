@@ -1,56 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoviePlus</title> 
-    <link rel="stylesheet" href="/css/index.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>MoviePlus</title>
+
+    <link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body>
 
     <header class="navbar">
-        <div class="logo">Movie<span>Plus</span></div>
-            
-                <nav>
-                    <div class="logo">Movie<span>Plus</span></div>
-                
-                    <a href="index.html" class="activar">Inicio</a>
-                    <a href="Generos.html">Géneros</a>
-                   <a href="Detalle.html">destacada</a>
-                  <a href="Registro.html">Registro</a>
-            </nav>
+        <div class="logo">
+            Movie<span>Plus</span>
+        </div>
+
+        <nav>
+            <a href="index.html" class="activar">Inicio</a>
+            <a href="Generos.html">Géneros</a>
+            <a href="Detalle.html">Destacada</a>
+            <a href="Registro.html">Registro</a>
+        </nav>
     </header>
 
     <section class="hero">
-        <div class="overlay">
+        <div class="hero-content">
             <h1>Descubre tu próxima película favorita</h1>
-            <p>Transmite miles de películas y programas de TV en cualquier momento y en cualquier lugar.</p>
-            <a href="Generos.html" class="btn">explorar ahora</a>
+            <p>
+                Transmite miles de películas y programas de TV 
+                en cualquier momento y en cualquier lugar.
+            </p>
         </div>
     </section>
 
-    <header class="header-principal">
-        <div class="Logo">
-            <h1>Movie<span>Plus</span></h1>
+    <main class="grid-container">
+
+        <div class="card">
+            <h3>Estrenos</h3>
+            <p>Las películas más recientes del momento.</p>
         </div>
-    </header>
 
-    <nav class="Nav-menu">
-        <ul>
-            <li><a href="index.html" class="activar">Inicio</a></li>
-            <li><a href="Generos.html">Géneros</a></li>
-            <li><a href="Detalle.html">destacada</a></li>
-            <li><a href="Registro.html">Registro</a></li>
-        </ul>
-    </nav>
+        <div class="card">
+            <h3>Clásicos</h3>
+            <p>Revive las joyas del cine de todos los tiempos.</p>
+        </div>
 
-    <section class="Welcome-hero">
-        <div class="overlay">
-            <h1>Tu proxima historia comienza aqui</h1>
-                <p>Explora los mejores extrenos y criticas de la semana</p>
-                <a href="Generos.html" class="btn">Explorar ahora</a>
-            </div>
-    </section>
+        <div class="card">
+            <h3>Próximamente</h3>
+            <p>Descubre lo que está por llegar a MoviePlus.</p>
+        </div>
+
+    </main>
+
+    <footer style="text-align:center; padding:20px; background:#111; border-top:1px solid gold;">
+        <p>© 2026 MoviePlus - Derechos reservados</p>
+    </footer>
+
 </body>
 </html>
